@@ -1,0 +1,9 @@
+C:\app\Gabriel\product\18.0.0\dbhomeXE\bin>sqlplus system/1306
+
+CREATE USER test IDENTIFIED BY 1306;
+
+alter session set "_ORACLE_SCRIPT"=true;
+
+alter system disable restricted session;
+
+drop user gabriel cascade;
